@@ -67,7 +67,8 @@ XSLT to target that node and transform its contents into txt format.
     </xsl:template>
 ```
 If I were to run the just this one file and this XSLT(and set the output document to a .txt file) it would generate
-"I was delighted to learn from your letter to Pa and Ma that you plan to go to London
+```txt
+I was delighted to learn from your letter to Pa and Ma that you plan to go to London
                   on 4 Aug. and then to come on here from there. I’m again looking forward very much
                   to your arrival and to finding out what you’ll think of the work that I’ve done
                   since. The last things I did are a couple of rather large studies of oxcarts, a
@@ -85,4 +86,5 @@ If I were to run the just this one file and this XSLT(and set the output documen
                   probably in Drenthe again
                   now.Well, I write in some haste because I’m hard at work. I work a good deal early in the
                   morning or in the evening, and then sometimes everything is so inexpressibly
-                  beautiful."
+                  beautiful.
+ ```
