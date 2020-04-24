@@ -90,4 +90,4 @@ batch transfromation. Detailed instructions on how to perform batch transformati
 
 After your batch transformation you should have a subdirectory containing all of your doccuments as .txt files. If you didn't orginally save it to the MALLET directory(the mallet-2.0.8 folder on your desktop) you should do that now. In order to run 
 MALLET requires the input be stored in the MALLET Directory. For information on how to run your first TOPIC Model refer to 
-secondSteps.md in this repository. 
+[secondSteps.md](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/secondSteps.md/) in this repository. 
