@@ -23,3 +23,4 @@ used in the next command to run the Topic Model.
 unhelpful for analysis. This list can be viewed by in the file en.txt file which is located within the stoplists subdirectory
 within the mallet-2.0.8 directory. 
 
+`--extra-stopwords` is a command that allows you to 
