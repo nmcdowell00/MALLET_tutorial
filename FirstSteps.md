@@ -63,6 +63,26 @@ XSLT to target that node and transform its contents into txt format.
         </html>
     </xsl:template>
     <xsl:template match="body">
-        <p><xsl:apply-templates select="p/text()"></xsl:apply-templates></p>
+        <p><xsl:apply-templates select="p"></xsl:apply-templates></p>
     </xsl:template>
 ```
+If I were to run the just this one file and this XSLT(and set the output document to a .txt file) it would generate
+"I was delighted to learn from your letter to Pa and Ma that you plan to go to London
+                  on 4 Aug. and then to come on here from there. I’m again looking forward very much
+                  to your arrival and to finding out what you’ll think of the work that I’ve done
+                  since. The last things I did are a couple of rather large studies of oxcarts, a
+                  black ox and a red and white one.And have also been working again on the old tower in the fields in the 
+                  evening; I’ve
+                  made a larger study of it than my previous ones — with the wheatfields around
+                  it.Rappard sent me back the little book by Vosmaer that belongs to you — I started to
+                  read it but — is it just me? — find it almighty boring and actually written in an
+                  academic, sermonizing tone. Perhaps you will too when you look at it again. Have
+                  you read Sapho by Daudet? It’s very beautiful, and so vigorous, and so close to
+                  life that the female figure lives, breathes, and one can hear, literally hear the
+                  voice, and forgets that one is reading.You’ll also see a couple more new weavers when you come.Nature is 
+                  certainly pure here — I’m still very pleased with the studio, too.We must
+                  visit some farms and weavers together when you come.Rappard’s plan is to come back again in October; he’s 
+                  probably in Drenthe again
+                  now.Well, I write in some haste because I’m hard at work. I work a good deal early in the
+                  morning or in the evening, and then sometimes everything is so inexpressibly
+                  beautiful."
