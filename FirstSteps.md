@@ -47,7 +47,7 @@ input files.
 </letter>
 ```
 All of the information that I wish to extract is nested inside of the `<p>` element. So to extract that infromation I wrote
-XSLT to target that node and transform its contents into txt format.
+XSLT to target that node and strip it of all markup. 
 ```XSLT
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
@@ -85,5 +85,5 @@ visit some farms and weavers together when you come.Rappard’s plan is to come 
 probably in Drenthe again now. Well, I write in some haste because I’m hard at work. I work a good deal 
 early in the morning or in the evening, and then sometimes everything is so inexpressibly beautiful.
  ```
-This output is something MALLET could use. In order to do this you run a batch transformation. Detailed instructions on how to 
-perform batch transformations can be found [here](https://github.com/obdurodon/dh_course/blob/master/batch/configure-transformation.md).
+This output is something MALLET could use. In order to do this quickly for your whole corpus of XML files you must run a 
+batch transfromation. Detailed instructions on how to perform batch transformations can be found [here](https://github.com/obdurodon/dh_course/blob/master/batch/configure-transformation.md).
