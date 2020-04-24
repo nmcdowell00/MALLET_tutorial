@@ -1,4 +1,4 @@
-<h1>How to Download Mallet</h1>
+# How to Download Mallet
 MALLET can be downloaded at <http://mallet.cs.umass.edu/download.php/>. 
 There are instructions for installation on the page linked above. MALLET will be downloaded into your downloads folder. 
 Once downloaded you should move the folder(which should be named mallet-2.0.8) onto your desktop. The next step will be 
