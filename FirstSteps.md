@@ -85,5 +85,5 @@ visit some farms and weavers together when you come.Rappard’s plan is to come 
 probably in Drenthe again now. Well, I write in some haste because I’m hard at work. I work a good deal 
 early in the morning or in the evening, and then sometimes everything is so inexpressibly beautiful.
  ```
-This output is something MALLET could use. In order to do this you batch transformation. Detailed instructions on how to 
+This output is something MALLET could use. In order to do this you run a batch transformation. Detailed instructions on how to 
 perform batch transformations can be found [here](https://github.com/obdurodon/dh_course/blob/master/batch/configure-transformation.md).
