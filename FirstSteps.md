@@ -66,7 +66,7 @@ XSLT to target that node and transform its contents into txt format.
         <p><xsl:apply-templates select="p"></xsl:apply-templates></p>
     </xsl:template>
 ```
-If I were to run the just this one file and this XSLT(and set the output document to a .txt file) it would generate
+If I were to run the just this one file and this XSLT(and set the output document to a .txt file) it would generate this:
 ```txt
 I was delighted to learn from your letter to Pa and Ma that you plan to go to London
 on 4 Aug. and then to come on here from there. I’m again looking forward very much
@@ -85,3 +85,5 @@ visit some farms and weavers together when you come.Rappard’s plan is to come 
 probably in Drenthe again now. Well, I write in some haste because I’m hard at work. I work a good deal 
 early in the morning or in the evening, and then sometimes everything is so inexpressibly beautiful.
  ```
+This output is something MALLET could use. In order to do this you batch transformation. Detailed instructions on how to 
+perform batch transformations can be found [here](https://github.com/obdurodon/dh_course/blob/master/batch/configure-transformation.md).
