@@ -24,4 +24,4 @@ unhelpful for analysis. This list can be viewed by in the file en.txt file which
 within the mallet-2.0.8 directory. 
 
 `--extra-stopwords` is a command that allows you to specify specific words that you wish to exclude from your topic model. 
-Information on how to create your own stopword list can be found [here](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/stopwords.md)
+Information on how to create your own stopword list can be found [here](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/stopwords.md).
