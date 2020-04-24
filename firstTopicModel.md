@@ -25,3 +25,12 @@ within the mallet-2.0.8 directory.
 
 `--extra-stopwords` is a command that allows you to specify specific words that you wish to exclude from your topic model. 
 Information on how to create your own stopword list can be found [here](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/stopwords.md).
+
+## Run you Topic Model
+
+The next command you will enter: 
+```./bin/mallet train-topics --input tutorialSample_1.mallet --num-topics 10 --num-iterations 100 --output-state tutorialSample_1.gz --output-topic-keys tutorialSample_1a.txt --output-doc-topics tutorialSample_1b.txt
+```
+This command is what runs the topic model. The `--intput` command should be followed by the output generated in the last command.
+
+
