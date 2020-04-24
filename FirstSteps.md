@@ -13,6 +13,7 @@ targets the XML node that stores the text that you want to extract. I will show 
 input files. 
 
 ### Example of a File that I want to transform. 
+```XML
 <letter>
       <head><location>Nuenen</location>, on or about Sunday, <date>20 July 1884</date>.</head>
       <salutation>My dear Theo,</salutation>
@@ -44,3 +45,4 @@ input files.
       <close>Ever yours,</close>
       <sig>Vincent</sig>
 </letter>
+```
