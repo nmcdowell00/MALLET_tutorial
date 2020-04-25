@@ -29,7 +29,8 @@ Information on how to create your own stopword list can be found [here](https://
 ## Run you Topic Model
 
 The next command you will enter: 
-```./bin/mallet train-topics --input tutorialSample_1.mallet --num-topics 10 --num-iterations 100 --output-state tutorialSample_1.gz --output-topic-keys tutorialSample_1a.txt --output-doc-topics tutorialSample_1b.txt
+```
+./bin/mallet train-topics --input tutorialSample_1.mallet --num-topics 10 --num-iterations 100 --output-state tutorialSample_1.gz --output-topic-keys tutorialSample_1a.txt --output-doc-topics tutorialSample_1b.txt
 ```
 This command is what runs the topic model. The `--intput` command should be followed by the output generated in the last command.
 
