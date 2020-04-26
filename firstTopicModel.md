@@ -76,7 +76,7 @@ the document created by the command above(this is file is linked earlier in this
 The first column will be a placeholder value. The second column is all of your filenames. The following columns are the weight of each topic in that letter. For example. The topic weight of the first topic in let221.txt would be 0.1565040650406504. The 
 topic weight of the second topic in let221.txt would be 0.06707317073170732. You probably understand how to read this data 
 now. To see it in a more structured format you can open it in excel. You may also notice that this data was not outputted in 
-the right order(chronologically). This can be solved later when we create visuals with SVG and XSLT. 
+the right order(chronologically). This can be solved later when we create visuals with SVG and XSLT. An explanation on how to create visuals can be found on the [visualizeData.md](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/visualizeData.md) page. 
 
 
 
