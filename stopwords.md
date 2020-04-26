@@ -17,4 +17,4 @@ one’s
 you’re
 things
 ```
-One problem I had with stoplists was figuring out how to include words with apostrophes. With the help of Dr. Birnbaum I figured out that MALLET only accepts words with a smart apostrophe(’) not a regular apostrophe('). To create a smarty apostrophe hold OPTION,SHIFT, AND ](close square bracket key). 
+One problem I had with stoplists was figuring out how to include words with apostrophes. With the help of Dr. Birnbaum I figured out that MALLET only accepts words with a smart apostrophe(’) not a regular apostrophe('). To create a smart apostrophe hold OPTION,SHIFT, AND ](close square bracket key). 
