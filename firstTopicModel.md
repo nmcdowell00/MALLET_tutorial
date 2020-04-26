@@ -59,6 +59,7 @@ topics. An example of this output would look like this:
 8	0.5	work don’t time can’t feel studies make people long studio won’t drawing thing wouldn’t didn’t isn’t put kind case working 
 9	0.5	thinking thought room full desire face high peace found dead half night years making window death fire worth firm graphic 
 ```
+The actual output file can be found [here]().
 
 
 
