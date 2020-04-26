@@ -67,8 +67,16 @@ with practice it will make sense. An example of the output can be found [here](h
 document in excel at first just so you can see its true structure. To explain its structure I will present a portion of 
 the document created by the command above(this is file is linked earlier in this paragraph).
 ```
+0	file:/Users/natemcdowell/Desktop/mallet-2.0.8/corpusi/vgCorp/let221.txt	0.1565040650406504	0.06707317073170732	0.09959349593495935	0.042682926829268296	0.03048780487804878	0.2459349593495935	0.034552845528455285	0.07113821138211382	0.22560975609756098	0.026422764227642278
+1	file:/Users/natemcdowell/Desktop/mallet-2.0.8/corpusi/vgCorp/let584.txt	0.028106508875739646	0.09023668639053255	0.11686390532544379	0.4807692307692308	0.016272189349112426	0.09319526627218935	0.013313609467455622	0.0073964497041420114	0.09615384615384616	0.057692307692307696
+2	file:/Users/natemcdowell/Desktop/mallet-2.0.8/corpusi/vgCorp/let037.txt	0.0043859649122807015	0.07456140350877193	0.0043859649122807015	0.013157894736842105	0.2236842105263158	0.17982456140350878	0.2675438596491228	0.15350877192982457	0.0043859649122807015	0.07456140350877193
+3	file:/Users/natemcdowell/Desktop/mallet-2.0.8/corpusi/vgCorp/let745.txt	0.1629032258064516	0.14677419354838708	0.024193548387096774	0.19193548387096773	0.05	0.03064516129032258	0.05967741935483871	0.0016129032258064516	0.22741935483870968	0.10483870967741936
+4	file:/Users/natemcdowell/Desktop/mallet-2.0.8/corpusi/vgCorp/let023.txt	0.011363636363636364	0.2159090909090909	0.056818181818181816	0.03409090909090909	0.10227272727272728	0.32954545454545453	0.011363636363636364	0.07954545454545454	0.125	0.03409090909090909
 ```
-The first column will be a placeholder value. 
+The first column will be a placeholder value. The second column is all of your filenames. The following columns are the weight of each topic in that letter. For example. The topic weight of the first topic in let221.txt would be 0.1565040650406504. The 
+topic weight of the second topic in let221.txt would be 0.06707317073170732. You probably understand how to read this data 
+now. To see it in a more structured format you can open it in excel. You may also notice that this data was not outputted in 
+the right order(chronologically). This can be solved later when we create visuals with SVG and XSLT. 
 
 
 
