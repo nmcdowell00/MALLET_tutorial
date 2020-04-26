@@ -59,7 +59,11 @@ topics. An example of this output would look like this:
 8	0.5	work don’t time can’t feel studies make people long studio won’t drawing thing wouldn’t didn’t isn’t put kind case working 
 9	0.5	thinking thought room full desire face high peace found dead half night years making window death fire worth firm graphic 
 ```
-The actual output file can be found [here]().
+The actual output file can be found [here](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/tutorialSample/tutorialSample_1a.txt).
+
+`--output-doc-topcis` determins the name of the file that will contain the topic weight data of your topic model(how present 
+each topic is in each file). This file might look confusing at first just because of the cluttered nature of the output but 
+with practice it will make sense. An example of the output can be found [here](). I reccomend to open this document 
 
 
 
