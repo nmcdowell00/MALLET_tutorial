@@ -40,6 +40,13 @@ This command is what runs the topic model. The `--intput` command should be foll
 MALLET since your most Corpuses are unique and react differently to the topic restraints. The best practice would be to run
 test 5,10,15,20,25,... topics until you find a range that you find generates meaningful results. 
 
-`--num-iterations` 
+`--num-iterations` commands how many iterations MALLET will perform. 1 iteration would be MALLET passing through the text 
+once. This means each word would only be analyzed and categorized once. More iterations allows MALLET to reavluate words and 
+rearrange topics which creates more specific topics. For my actaul project I used 800 iterations. I would recommend running 
+100,200,300,...,1000 iterations to just see the difference it makes. 
+
+The next important command is `--output-topic-keys`. This determines the name of the file that will contain a overview of your 
+topics. An example of this output would look like this:
+
 
 
