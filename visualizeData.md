@@ -44,12 +44,6 @@ some varation of the XSLT/SVG below:
                 </xsl:for-each>
 
             </g>
-            <line x1="54" y1="600" x2="1000" y2="600" stroke="black" stroke-width="2" stroke-linecap="square"/>
-            <line x1="54" y1="600" x2="50" y2="0" stroke="black" stroke-width="2" stroke-linecap="square"/>
-            <text></text>
-            
-            <!-- <text x="54" y="625" text-anchor="center"></text> -->
-            
         </svg>
     </xsl:template>
 </xsl:stylesheet>
