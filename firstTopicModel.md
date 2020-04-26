@@ -26,7 +26,7 @@ within the mallet-2.0.8 directory.
 `--extra-stopwords` is a command that allows you to specify specific words that you wish to exclude from your topic model. 
 Information on how to create your own stopword list can be found [here](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/stopwords.md).
 
-The output of this command can be viewed [here](
+The output of this command can be viewed in tutorialSample_1.mallet file stored in the tuturialSample directory in this repo. Note that this document is really just a stepping stone to create actual meaningful results that will be explained in the next step. You probably won't be able to open the .mallet file unless you download something that can process it(idk what that would be). 
 
 ## Run you Topic Model
 
@@ -35,5 +35,11 @@ The next command you will enter:
 ./bin/mallet train-topics --input tutorialSample_1.mallet --num-topics 10 --num-iterations 100 --output-state tutorialSample_1.gz --output-topic-keys tutorialSample_1a.txt --output-doc-topics tutorialSample_1b.txt
 ```
 This command is what runs the topic model. The `--intput` command should be followed by the output generated in the last command.
+
+`--num-topics` is how many topics you want MALLET to generate from the text. There is no reccomended amount of topics for 
+MALLET since your most Corpuses are unique and react differently to the topic restraints. The best practice would be to run
+test 5,10,15,20,25,... topics until you find a range that you find generates meaningful results. 
+
+`--num-iterations` 
 
 
