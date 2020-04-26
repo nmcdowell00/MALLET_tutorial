@@ -63,7 +63,12 @@ The actual output file can be found [here](https://github.com/nmcdowell00/MALLET
 
 `--output-doc-topcis` determins the name of the file that will contain the topic weight data of your topic model(how present 
 each topic is in each file). This file might look confusing at first just because of the cluttered nature of the output but 
-with practice it will make sense. An example of the output can be found [here](). I reccomend to open this document 
+with practice it will make sense. An example of the output can be found [here](https://github.com/nmcdowell00/MALLET_tutorial/blob/master/tutorialSample/tutorialSample_1b.txt). I reccomend opening this 
+document in excel at first just so you can see its true structure. To explain its structure I will present a portion of 
+the document created by the command above(this is file is linked earlier in this paragraph).
+```
+```
+The first column will be a placeholder value. 
 
 
 
